@@ -1,0 +1,39 @@
+#test_login:
+#  -
+#    username: "1999999"
+#    password: "123456"
+#    toast: "成功"
+#  -
+#    username: "19998888"
+#    password: "123456"
+#    toast: "不存在"
+#  -
+#    username: "1999999"
+#    password: "123456"
+#    toast: "成功"
+
+test_login:
+  test_login001:
+    username: "18814128888"
+    password: "123456"
+    toast: "不存在"
+    is_screen: True
+    screen_filename: "login1"
+  test_login002:
+    username: "18814128888 "
+    password: "123456"
+    toast: "不存在"
+    is_screen: False
+    screen_filename: "login2"
+  test_login003:
+    username: " 18814126666"
+    password: "123456"
+    toast: "成功"
+    is_screen: True
+    screen_filename: "login3"
+  test_login004:
+    username: "18814127777"
+    password: "qwe321"
+    toast: "不存在"
+    is_screen: False
+    screen_filename: "login4"
