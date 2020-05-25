@@ -14,7 +14,7 @@
 
 test_login:
   test_login001:
-    username: "18814128888"
+    username: "18814125555"
     password: "123456"
     toast: "不存在"
     is_screen: True
@@ -28,7 +28,7 @@ test_login:
   test_login003:
     username: " 18814126666"
     password: "123456"
-    toast: "成功"
+    toast: "不存在"
     is_screen: True
     screen_filename: "login3"
   test_login004:
